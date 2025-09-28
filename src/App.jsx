@@ -1,12 +1,17 @@
 import { useState } from 'react'
+import SideBar from './components/sidebar'
+import FolderLists from './components/folderLists'
+import FolderDetails from './components/UI/folderDetails'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h2 className="bg-amber-700">Nowted</h2>
-    </>
+    <div className='grid grid-cols-[20%_25%_55%]'>
+      <SideBar />
+      <FolderLists />
+      <FolderDetails />
+    </div>
   )
 }
 
