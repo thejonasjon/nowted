@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import SideBar from './components/sidebar'
 import FolderLists from './components/folderLists'
-import FolderDetails from './components/UI/folderDetails'
+import FolderDetails from './components/folderDetails'
 
 function App() {
   const [count, setCount] = useState(0)

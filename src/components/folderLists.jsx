@@ -1,4 +1,4 @@
-import FolderCard from "./UI/folderCard";
+import FolderCard from "./folderCard";
 
 export default function FolderLists(){
     return (

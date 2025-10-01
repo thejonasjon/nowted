@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Archive, FileText, Folder, FolderOpen, FolderPlus, Pencil, Plus, Search, Star, Trash } from "lucide-react";
 import NavButton from "./UI/NavButton";
 import Button from "./UI/Button";
-import FolderCard from "./UI/folderCard";
+import FolderCard from "./folderCard";
 import InputText from "./UI/inputText";
 
 export default function SideBar() {
