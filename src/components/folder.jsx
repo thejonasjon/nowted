@@ -3,16 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import NavButton from "./UI/NavButton";
 
-export default function Folders(){
-
-    [
-        {"name": "Personal"},
-        {
-            "icons": {
-            "a": "FolderPlus"
-        }
-        }
-    ]
+export default function Folder(){
 
     const folders = [
         {
@@ -36,7 +27,6 @@ export default function Folders(){
             "link": "url"
         }
     ]
-
 
     return (
         <div className="bg-black w-full h-full">

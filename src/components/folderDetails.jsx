@@ -1,15 +1,25 @@
 import { CalendarDays, Ellipsis, FileText, Folder } from "lucide-react";
 import NoteEditor from "./noteEditor";
+import ActionsDropdown from "./actionsDropdown";
+import { useState } from "react";
 
 export default function FolderDetails(){
+    const [dropdown, SetDropdwown] = useState(false)
+
     return (
         <section className="space-y-7.5 bg-[#181818] text-white px-12.5 py-12.5">
             <div>
                 <div className="flex justify-between items-center">
                     <h2 className="text-[32px]">Reflection on the Month of June</h2>
 
-                    <div className="border border-white/40 rounded-full p-1">
-                        <Ellipsis className="text-white/40" size={20}/>
+                    <div className="relative">
+                        <button
+                        onClick={() => SetDropdwown(!dropdown)}
+                        className="border-2 border-white rounded-full p-1 transition-all ease-in-out duration-75">
+                            <Ellipsis className="text-white size-6 hover:size-6.5 transition-all ease-in-out duration-100" size={20}/>
+                        </button>
+
+                        {dropdown ? <ActionsDropdown /> : null }
                     </div>
                 </div>
             </div>

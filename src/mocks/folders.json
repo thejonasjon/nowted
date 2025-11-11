@@ -1,0 +1,250 @@
+{
+  "totalFolders": 5,
+  "currentPage": 1,
+  "perPage": 10,
+  "totalPages": 2,
+  "data": [
+    {
+        "id": 1,
+        "name": "Personal",
+        "notes": [
+        {
+            "id": 1,
+            "title": "My goal for next year",
+            "description": "Focus on self-improvement and fitness.",
+            "favorite": true,
+            "archived": false,
+            "trashed": false,
+            "created_at": "2025-01-05",
+            "updated_at": "2025-01-10"
+        },
+        {
+            "id": 2,
+            "title": "Books to Read",
+            "description": "Atomic Habits, Deep Work, Clean Code.",
+            "favorite": false,
+            "archived": false,
+            "trashed": false,
+            "created_at": "2025-02-01",
+            "updated_at": "2025-02-03"
+        },
+        {
+            "id": 3,
+            "title": "Daily Journal",
+            "description": "Writing habit every morning.",
+            "favorite": false,
+            "archived": false,
+            "trashed": true,
+            "created_at": "2025-03-12",
+            "updated_at": "2025-03-15"
+        },
+        {
+            "id": 4,
+            "title": "Health Checkup",
+            "description": "Schedule appointment with doctor.",
+            "favorite": false,
+            "archived": true,
+            "trashed": false,
+            "created_at": "2025-04-01",
+            "updated_at": "2025-04-02"
+        }
+        ],
+        "created_at": "2025-01-05",
+        "updated_at": "2025-01-10"
+    },
+    {
+        "id": 2,
+        "name": "Work",
+        "notes": [
+        {
+            "id": 5,
+            "title": "Q1 Goals",
+            "description": "Deliver project milestones on time.",
+            "favorite": false,
+            "archived": false,
+            "trashed": false,
+            "created_at": "2025-01-10",
+            "updated_at": "2025-01-15"
+        },
+        {
+            "id": 6,
+            "title": "Meeting Notes",
+            "description": "Client feedback from last meeting.",
+            "favorite": true,
+            "archived": false,
+            "trashed": false,
+            "created_at": "2025-02-12",
+            "updated_at": "2025-02-13"
+        },
+        {
+            "id": 7,
+            "title": "Tech Research",
+            "description": "Explore AI tools for automation.",
+            "favorite": false,
+            "archived": false,
+            "trashed": true,
+            "created_at": "2025-03-20",
+            "updated_at": "2025-03-22"
+        },
+        {
+            "id": 8,
+            "title": "Team Tasks",
+            "description": "Assign sprint backlog items.",
+            "favorite": false,
+            "archived": true,
+            "trashed": false,
+            "created_at": "2025-04-05",
+            "updated_at": "2025-04-07"
+        }
+        ],
+        "created_at": "2025-01-05",
+        "updated_at": "2025-01-10"
+    },
+    {
+        "id": 3,
+        "name": "Travel",
+        "notes": [
+        {
+            "id": 9,
+            "title": "Paris Itinerary",
+            "description": "Visit Eiffel Tower, Louvre, and cafes.",
+            "favorite": true,
+            "archived": false,
+            "trashed": false,
+            "created_at": "2025-01-18",
+            "updated_at": "2025-01-19"
+        },
+        {
+            "id": 10,
+            "title": "Packing List",
+            "description": "Clothes, chargers, passport.",
+            "favorite": false,
+            "archived": false,
+            "trashed": false,
+            "created_at": "2025-02-14",
+            "updated_at": "2025-02-16"
+        },
+        {
+            "id": 11,
+            "title": "Flight Bookings",
+            "description": "Check Skyscanner for deals.",
+            "favorite": false,
+            "archived": false,
+            "trashed": true,
+            "created_at": "2025-03-03",
+            "updated_at": "2025-03-05"
+        },
+        {
+            "id": 12,
+            "title": "Travel Budget",
+            "description": "Plan expenses for accommodation and food.",
+            "favorite": false,
+            "archived": true,
+            "trashed": false,
+            "created_at": "2025-04-12",
+            "updated_at": "2025-04-13"
+        }
+        ],
+        "created_at": "2025-01-05",
+        "updated_at": "2025-01-10"
+    },
+    {
+        "id": 4,
+        "name": "Event",
+        "total_notes": 4,
+        "notes": [
+            {
+                "id": 13,
+                "title": "Birthday Party",
+                "description": "Book venue and invite friends.",
+                "favorite": true,
+                "archived": false,
+                "trashed": false,
+                "created_at": "2025-01-22",
+                "updated_at": "2025-01-23"
+            },
+            {
+                "id": 14,
+                "title": "Conference Prep",
+                "description": "Prepare slides and handouts.",
+                "favorite": false,
+                "archived": false,
+                "trashed": false,
+                "created_at": "2025-02-20",
+                "updated_at": "2025-02-22"
+            },
+            {
+                "id": 15,
+                "title": "Wedding Checklist",
+                "description": "Arrange photographer and catering.",
+                "favorite": false,
+                "archived": false,
+                "trashed": true,
+                "created_at": "2025-03-07",
+                "updated_at": "2025-03-08"
+            },
+            {
+                "id": 16,
+                "title": "Community Meetup",
+                "description": "Plan agenda and book hall.",
+                "favorite": false,
+                "archived": true,
+                "trashed": false,
+                "created_at": "2025-04-20",
+                "updated_at": "2025-04-21"
+            }
+        ],
+        "created_at": "2025-01-05",
+        "updated_at": "2025-01-10"
+    },
+    {
+        "id": 5,
+        "name": "Finance",
+        "notes": [
+        {
+            "id": 17,
+            "title": "Monthly Budget",
+            "description": "Track income and expenses.",
+            "favorite": true,
+            "archived": false,
+            "trashed": false,
+            "created_at": "2025-01-25",
+            "updated_at": "2025-01-26"
+        },
+        {
+            "id": 18,
+            "title": "Investment Plan",
+            "description": "Research stocks and crypto.",
+            "favorite": false,
+            "archived": false,
+            "trashed": false,
+            "created_at": "2025-02-24",
+            "updated_at": "2025-02-25"
+        },
+        {
+            "id": 19,
+            "title": "Savings Goal",
+            "description": "Save for new laptop and vacation.",
+            "favorite": false,
+            "archived": false,
+            "trashed": true,
+            "created_at": "2025-03-11",
+            "updated_at": "2025-03-12"
+        },
+        {
+            "id": 20,
+            "title": "Debt Repayment",
+            "description": "Pay off credit card balance.",
+            "favorite": false,
+            "archived": true,
+            "trashed": false,
+            "created_at": "2025-04-25",
+            "updated_at": "2025-04-27"
+        }
+        ],
+        "created_at": "2025-01-05",
+        "updated_at": "2025-01-10"
+    }
+]
+
+}

@@ -7,3 +7,12 @@
     --font-source-sans: Source-Sans, "Sans-serif";
     --font-kaushan-script: Kaushan Script, cursive;
 }
+
+body{
+    background-color: #181818;
+}
+
+button {
+    cursor: pointer;
+    white-space: nowrap;
+}
